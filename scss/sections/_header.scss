@@ -1,0 +1,97 @@
+@use "../custom" as *;
+
+.nav {
+  padding: 2.5rem 0;
+  background-color: $white;
+  align-items: center;
+
+  &__logo-link {
+    margin-right: 2.8rem;
+  }
+
+  &__box {
+    background-color: $dark-violet;
+    border-radius: 0.4rem;
+  }
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0px 0px 0px 2px $cyan;
+}
+
+@include media-breakpoint-up(lg) {
+  .nav__box {
+    background-color: $white;
+  }
+}
+
+.navbar-nav {
+  gap: 1rem;
+}
+.nav-link {
+  color: $white;
+
+  &:hover {
+    color: $gray;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .nav-link {
+    color: $grayish-violet;
+
+    &:hover {
+      color: $very-dark-blue;
+    }
+  }
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.btn-login {
+}
+
+.btn-login__btn {
+  color: $white;
+  transition: all 200ms;
+  padding: 0.6rem 0 0.6rem;
+
+  &:hover {
+    color: $grayish-violet;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .btn-login__btn {
+    color: $grayish-violet;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
+
+.btn-sign-up {
+  a {
+    color: $white;
+    background-color: $cyan;
+    padding: 0.6rem 0 0.6rem;
+    transition: all 200ms;
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}
+
+// <div class="d-lg-flex">
+// <div type="button" class="rounded-pill btn-login mb-lg-2">
+//   <a href="#!" class="fw-bold me-4">Login</a>
+// </div>
+// <div type="button" class="btn-sign-up px-4">
+//   <a href="#!" class="fw-bold rounded-pill d-block px-3"
+//     >Sign Up</a
+//   >
+// </div>
+// </div>

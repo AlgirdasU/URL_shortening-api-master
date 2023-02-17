@@ -1,0 +1,13 @@
+@use "custom";
+@use "base";
+// IMPORT THE COMPONENT
+@use "components/buttons";
+@use "components/mixins";
+@use "components/typography";
+@use "components/utilities";
+// IMPORT SECTIONS
+@use "sections/header";
+@use "sections/shorten";
+@use "sections/statistics";
+@use "sections/boost_links";
+@use "sections/footer";

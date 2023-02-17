@@ -1,0 +1,45 @@
+// PRIMARY COLORS
+$cyan: hsl(180, 66%, 49%);
+$dark-violet: hsl(257, 27%, 26%);
+
+$primary: hsl(257, 27%, 26%);
+$secondary: hsl(257, 7%, 63%);
+
+// SECONDARY COLORS
+$red: hsl(0, 87%, 67%);
+
+// NEUTRAL COLORS
+$white: #fff;
+$gray: hsl(0, 0%, 75%);
+$grayish-violet: hsl(257, 7%, 63%);
+$very-dark-blue: hsl(255, 11%, 22%);
+$very-dark-violet: hsl(260, 8%, 14%);
+
+// TYPOGRAPHY
+$font-size-body: 1.8rem;
+
+// FONTS
+$major-font: "Poppins", sans-serif;
+$font-w-medium: 500;
+$font-w-bold: 700;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1440px,
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+) !default;
+
+$enable-negative-margins: true;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
